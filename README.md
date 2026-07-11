@@ -1,10 +1,10 @@
 # AI-Powered-Workforce-Analytics-Talent-Intelligence-Dashboard
 
-# Project Statement:
+## Project Statement:
 
 This project focuses on developing an AI-Powered Workforce Analytics & Talent Intelligence Dashboard that enables organizations to gain actionable insights into workforce performance, employee engagement, talent development, diversity, attrition, recruitment effectiveness, and organizational health. The solution leverages Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), predictive analytics, and agentic AI workflows to transform disparate HR and workforce data into strategic business intelligence. By automating real-time analytics and conversational querying, the platform empowers HR leaders and executives to make data-driven decisions regarding workforce planning, retention strategies, and skill development, ultimately allowing organizations to proactively address talent challenges and optimize organizational performance.
 
-# Outcomes:
+## Outcomes:
 
 - Comprehensive visibility into workforce performance, demographics, and organizational trends.
 - Predictive analytics to identify attrition risks and recommend proactive retention strategies.
@@ -13,13 +13,13 @@ This project focuses on developing an AI-Powered Workforce Analytics & Talent In
 - Intelligent, AI-powered recommendations for workforce planning and engagement.
 - Natural language interaction for rapid, data-driven workforce intelligence.
 
-# Solution:
+## Solution:
 
 <img width="1536" height="1024" alt="ChatGPT Image Jul 8, 2026, 05_57_57 PM" src="https://github.com/user-attachments/assets/f2551784-ca5a-4c9d-bf44-897d773ebaaa" />
 
-# Step By Step Workflow:
+## Step By Step Workflow:
 
-## Step 1: Data Ingestion
+### Step 1: Data Ingestion
 
 - Collect workforce data from Snowflake, Oracle HCM, and external APIs.
 - Export Snowflake data to Google Cloud Storage using COPY INTO.
@@ -29,7 +29,7 @@ This project focuses on developing an AI-Powered Workforce Analytics & Talent In
 
 Technology Used: Snowflake, Oracle HCM, Google Cloud Storage, Cloud Dataflow, Cloud Scheduler, Cloud Functions
 
-## Step 2: Workflow Orchestration
+### Step 2: Workflow Orchestration
 
 - Schedule and automate the complete ETL workflow.
 - Manage data extraction, loading, transformation, and AI model refresh.
@@ -37,7 +37,7 @@ Technology Used: Snowflake, Oracle HCM, Google Cloud Storage, Cloud Dataflow, Cl
 
 Technology Used: Cloud Composer (Apache Airflow)
 
-## Step 3: Data Storage & Transformation (Backend)
+### Step 3: Data Storage & Transformation (Backend)
 
 - Store the raw workforce data in Google Cloud Storage.
 - Load processed data into BigQuery as the centralized data warehouse.
@@ -46,7 +46,7 @@ Technology Used: Cloud Composer (Apache Airflow)
 
 Technology Used: Google Cloud Storage, BigQuery, Dataform
 
-## Step 4: AI & Analytics Processing (Backend)
+### Step 4: AI & Analytics Processing (Backend)
 
 - Analyze transformed workforce data using Vertex AI and BigQuery ML.
 - Generate attrition predictions, skill gap analysis, workforce health scores, recruitment analytics, diversity metrics, and learning recommendations.
@@ -56,7 +56,7 @@ Technology Used: Google Cloud Storage, BigQuery, Dataform
 Technology Used: Vertex AI, BigQuery ML, Vertex AI Embeddings, Vector 
 Search, Gemini (LLM), RAG
 
-## Step 5: Frontend Integration
+### Step 5: Frontend Integration
 
 - Display workforce insights through the Web Interface (Dashboard).
 - Present Workforce KPIs such as attrition, recruitment, diversity, and learning analytics.
@@ -65,7 +65,7 @@ Search, Gemini (LLM), RAG
 
 Technology Used: Web Interface (React/Next.js or equivalent), BigQuery APIs, Vertex AI APIs, Gemini APIs, AI Chat Interface
 
-## Step 6: Security & Governance
+### Step 6: Security & Governance
 
 - Authenticate and authorize users securely.
 - Protect sensitive workforce credentials and data.
@@ -73,7 +73,7 @@ Technology Used: Web Interface (React/Next.js or equivalent), BigQuery APIs, Ver
 
 Technology Used: Google Cloud IAM, Secret Manager, Data Catalog, Cloud Audit Logs, Encryption, VPC Service Controls
 
-## Step 7: End User Interaction
+### Step 7: End User Interaction
 
 - HR Managers, Executives, and Business Stakeholders access the dashboard.
 - Monitor Workforce KPIs and organizational performance.
@@ -81,3 +81,14 @@ Technology Used: Google Cloud IAM, Secret Manager, Data Catalog, Cloud Audit Log
 - Make informed, data-driven workforce planning and talent management decisions.
 
 Technology Used: Web Browser, Web Interface, AI Chat Interface, BigQuery, Vertex AI, Gemini LLM
+
+## Tech Stack
+- **Cloud:** Google Cloud Platform (GCP)
+- **Data Warehouse:** BigQuery
+- **ETL:** Cloud Composer, Dataflow, Dataform
+- **AI/ML:** Vertex AI, Gemini, BigQuery ML
+- **Storage:** Cloud Storage
+- **Frontend:** React/Next.js (or Web Interface)
+- **Security:** IAM, Secret Manager, Data Catalog
+
+
