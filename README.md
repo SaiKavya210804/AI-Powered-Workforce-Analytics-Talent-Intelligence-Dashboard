@@ -83,12 +83,17 @@ Technology Used: Google Cloud IAM, Secret Manager, Data Catalog, Cloud Audit Log
 Technology Used: Web Browser, Web Interface, AI Chat Interface, BigQuery, Vertex AI, Gemini LLM
 
 ## Tech Stack
-- **Cloud:** Google Cloud Platform (GCP)
+
+- **Cloud Platform:** Google Cloud Platform (GCP)
+- **Programming Language:** Python
+- **Data Sources:** Snowflake, Oracle HCM, External APIs
+- **Data Ingestion:** Cloud Storage, Cloud Dataflow, Cloud Functions, Cloud Scheduler
+- **Workflow Orchestration:** Cloud Composer (Apache Airflow)
 - **Data Warehouse:** BigQuery
-- **ETL:** Cloud Composer, Dataflow, Dataform
-- **AI/ML:** Vertex AI, Gemini, BigQuery ML
-- **Storage:** Cloud Storage
-- **Frontend:** React/Next.js (or Web Interface)
-- **Security:** IAM, Secret Manager, Data Catalog
+- **Data Transformation:** Dataform
+- **AI/ML:** Vertex AI, BigQuery ML, Gemini (LLM), Vertex AI Embeddings, Vector Search, Retrieval-Augmented Generation (RAG)
+- **Frontend:** React.js / Next.js (or Custom Web Interface)
+- **Visualization:** Web Dashboard
+- **Security & Governance:** IAM, Secret Manager, Data Catalog, Cloud Audit Logs, VPC Service Controls, Encryption
 
 
